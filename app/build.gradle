@@ -2,10 +2,10 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 21
-    buildToolsVersion "25.0.2"
+    buildToolsVersion '26.0.2'
 
     defaultConfig {
-        applicationId "com.xlm.h264senddemo"
+        applicationId "com.xlm.rtspdemo"
         minSdkVersion 16
         targetSdkVersion 21
     }
@@ -20,4 +20,6 @@ android {
 
 dependencies {
     compile 'com.android.support:support-v4:21.0.3'
+//    compile project(':libuvccamera')
+    implementation project(':libstream')
 }

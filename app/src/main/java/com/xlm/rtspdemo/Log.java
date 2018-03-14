@@ -14,7 +14,7 @@ public final class Log {
     public static boolean showBytes = false;
     public static boolean showDownLog = false;
 
-    private static final String TAG = "H264SendDemo";
+    private static final String TAG = "RtspDemo";
 
     public static FileWriter fw = null;
 
